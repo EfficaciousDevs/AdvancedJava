@@ -11,7 +11,7 @@ public class HighestMountain {
 
         for(int i = 1;i <= N-2;){
 
-            // checks if aList[i] is a peak?
+            // checks if aList[i] is a peak
             if(aList.get(i) > aList.get(i-1) && aList.get(i) > aList.get(i+1)){
                 int count = 1;
                 int j = i;
